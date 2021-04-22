@@ -25,7 +25,7 @@ export function EnviromentButton({
             active && styles.containerActive
             ]} {...rest}>
             <Text style={[styles.text,
-            active && styles.containerActive
+            active && styles.textActive
             ]}>
                 {title}
             </Text>
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 
     },
     containerActive: {
-        backgroundColor: colors.green_light
+        backgroundColor: colors.green_light,
     },
     text: {
         color: colors.heading,
