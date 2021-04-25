@@ -66,11 +66,13 @@ export function PlantSave() {
                 buttonTitle: 'Muito obrigado :D',
                 icon: 'hug',
                 nextScreen: 'MyPlants'
-            });
+            })
 
         } catch {
             Alert.alert('Não foi possivel salvar. 😥');
         }
+
+
     }
 
 
